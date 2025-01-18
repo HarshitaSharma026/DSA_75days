@@ -104,52 +104,21 @@ class Patterns {
            **
             *
     */
-   int j;
-   for(int i = 1; i <= r; i++) {
-    int cols = r - i + 1;
-    for(int k = 1; k <= r - cols; k++) {
-      System.out.print(" ");
-    }
-    for(j = 1; j<= cols; j++) {
-      System.out.print("* ");
-    }
-    for(int k = j; k < 2*r; k++) {
-      System.out.print(" ");
-    }
-    System.out.println();
-   }
+  //  int j;
+  //  for(int i = 1; i <= r; i++) {
+  //   int cols = r - i + 1;
+  //   for(int k = 1; k <= r - cols; k++) {
+  //     System.out.print(" ");
+  //   }
+  //   for(j = 1; j<= cols; j++) {
+  //     System.out.print("* ");
+  //   }
+  //   for(int k = j; k < 2*r; k++) {
+  //     System.out.print(" ");
+  //   }
+  //   System.out.println();
+  //  }
 
-    // ----------- 7, hollow full pyramid
-    /*
-          *
-        *    *
-        *    *
-       * * * * *
-    */
-   int j;
-   for(int i = 1; i <= r; i++) {
-    if (i != r) {
-      int spaces = r - i + 1;
-      int cols = 2*r;
-      for(int k = 1; k <= spaces; k++) {
-        System.out.print(" ");
-      }
-      System.out.print("*");
-      if (i != 1) {
-        // print spaces between the stars
-        for(int l = 1; l <= cols - (2*spaces); l++) {
-          System.out.println(" ");
-        }
-        System.out.print("*");
-      }
-      for(int k = j; k < 2*r; k++) {
-        System.out.print(" ");
-      }
-      System.out.println();
-    }
-    else {
 
-    }
-   }
   }
 }
