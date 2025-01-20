@@ -35,7 +35,7 @@ class Arrays {
       for(int i = 0; i < r1; i++) {
         for(int j = 0; j < c2; j++) {
           int sum = 0;
-          for(int k = 0; k < c1; k++) {
+          for(int k = j; k < c1; k++) {
             sum += arr1[i][k] * arr2[k][i];
           }
           arr3[i][j] = sum;
