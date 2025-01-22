@@ -27,3 +27,10 @@ sb.charAt(i)
 
 ### Length of stringbuilder object
 sb.length()
+
+### HashSet
+HashSet <T> set = new HashSet<>();
+set.add();
+set.addAll();
+set.contains();
+set.size();
